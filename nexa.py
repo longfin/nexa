@@ -93,7 +93,7 @@ if __name__ == '__main__':
                 }[c['info_18']],
             ).encode('Shift-JIS', errors='ignore'))
 
-            image_filename = os.path.join(card_set, 'LargeJPG', '{}.jpg'.format(card_code.replace(' ', '_')))
+            image_filename = os.path.join(card_set, 'LargeJPG', '{}.jpg'.format(card_code))
             image_url = 'http://www.carddass.com/cdmasters/nexa/images/cardlist/{}/{}.png'.format(
                 pack_id, c['info_25'],
             )
